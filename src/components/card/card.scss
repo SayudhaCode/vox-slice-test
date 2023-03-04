@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+.vox-hero__card {
+  position: relative;
+  .text-bg {
+    position: absolute;
+    font-size: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(0255, 255, 255, .2);
+
+    @include media-breakpoint-down(lg) {
+      font-size: 60px;
+    }
+  }
+
+}

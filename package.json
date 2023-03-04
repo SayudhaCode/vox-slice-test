@@ -1,28 +1,50 @@
 {
   "name": "vox-slicing-test",
-  "version": "1.0.0",
-  "private": true,
-  "description": "vox-slicing-test",
-  "author": "sayudha",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
+  "private": false,
+  "description": "Vox Slicing Test",
+  "version": "2.0.2",
+  "author": "Sayudha Lukita Wibisana",
   "dependencies": {
-    "gatsby": "^5.7.0",
-    "gatsby-plugin-image": "^3.7.0",
-    "gatsby-plugin-sass": "^6.7.0",
-    "gatsby-plugin-sharp": "^5.7.0",
-    "gatsby-source-filesystem": "^5.7.0",
-    "gatsby-transformer-sharp": "^5.7.0",
+    "@emotion/css": "^11.10.6",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "gatsby": "^5.1.0",
+    "gatsby-plugin-emotion": "^8.7.0",
+    "gatsby-plugin-gatsby-cloud": "^5.1.0",
+    "gatsby-plugin-image": "^3.1.0",
+    "gatsby-plugin-manifest": "^5.1.0",
+    "gatsby-plugin-offline": "^6.1.0",
+    "gatsby-plugin-sass": "^6.1.0",
+    "gatsby-plugin-sharp": "^5.1.0",
+    "gatsby-source-filesystem": "^5.1.0",
+    "gatsby-transformer-sharp": "^5.1.0",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.58.3"
-  }
+    "react-dom": "^18.0.0",
+    "react-slick": "^0.29.0",
+    "sass": "1.49.11",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  },
+  "keywords": [
+    "gatsby",
+    "starter",
+    "bootstrap",
+    "sass"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "main": "gatsby-browser.js"
 }

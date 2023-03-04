@@ -1,49 +1,47 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+  <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby Minimal Starter
+   Sayudha Test Submission - VOX Slicing Test
 </h1>
 
-## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+Hi Vox Team! Thanks for giving me this opportunity. At first, I was wondering which environment should I build for this Slicing Test, should I go with `create-react-app`? Should I just build my work environment using Webpack with Atomic Design? Should I use `Vue-CLI`? Or I just make it using Prepros?
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+Turns out I choose GatsbyJS, since this is just a single page, and I think Gatsby can handle it well even though I did not use their MDX or heavily use their GraphQL since this is just a slicing test, not working with API or fetching anything.
+
+I have build this project, but if you want to run it locally, you can check the steps below:
+
+## 🚀 How to install
+
+Run this on your terminal
+```shell
+npm install
+```
+
+if you get any error, please install yarn, you can use yarn to install or not, but yarn is needed globally.
+
+
+## ✏️ How to develop locally
+
+1.  Navigate into your new site’s directory and start it up.
 
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    cd vox-slicing-tests/
+    gatsby develop
     ```
 
-2.  **Start developing.**
+1.  **Open the source code and start editing!**
 
-    Navigate into your new site’s directory and start it up.
+    Your site is now running at `http://localhost:8000`!
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-3.  **Open the code and start customizing!**
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+Thanks! 
+You can find me on:
+Medium : https://medium.com/@mazaya.dev
+Twitter: https://twitter.com/DevMazaya
+Website: https://sayudhacode.github.io

@@ -1,0 +1,23 @@
+.slider {
+  position: relative;
+  &-btn {
+    width: 36px;
+    height: 39px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    color: #d3d3d3;
+  }
+
+  .partner {
+    max-width: 250px;
+    height: 250px;
+    border: 1px solid #B3B1B7;
+
+    > * {
+      display: block;
+      object-position: center;
+      margin: 50px;
+    }
+  }
+}

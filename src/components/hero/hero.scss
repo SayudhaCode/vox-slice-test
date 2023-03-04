@@ -1,0 +1,24 @@
+@import "~bootstrap/scss/bootstrap";
+
+.vox-hero {
+  background-repeat: no-repeat;
+  position: relative;
+  height: 406px;
+
+  &__container {
+    height: 406px;
+  }
+  
+  &__title {
+    padding-top: 120px;
+  }
+  &__cards {
+    position: relative;
+    transform: translateY(-30%);
+    overflow: hidden;
+
+    @include media-breakpoint-down(lg) {
+      transform: translateY(-10%);
+    }
+  }
+}
